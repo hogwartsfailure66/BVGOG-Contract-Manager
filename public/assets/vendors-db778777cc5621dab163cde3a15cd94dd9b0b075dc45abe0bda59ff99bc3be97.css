@@ -1,0 +1,347 @@
+/* line 23, app/assets/stylesheets/mixins.css.scss */
+#vendors .card {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e3e6f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* To prevent the table from overflowing */
+}
+
+/* line 31, app/assets/stylesheets/mixins.css.scss */
+#vendors .card .card-header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e3e6f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 38, app/assets/stylesheets/mixins.css.scss */
+#vendors .card .card-header .card-header-title {
+  height: 100%;
+}
+
+/* line 43, app/assets/stylesheets/mixins.css.scss */
+#vendors .card .card-header .card-header-title, #vendors .card .card-header span {
+  margin-right: 5px;
+}
+
+/* line 47, app/assets/stylesheets/mixins.css.scss */
+#vendors .card .card-header .columns {
+  width: 100%;
+}
+
+/* line 52, app/assets/stylesheets/mixins.css.scss */
+#vendors .card .card-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #e3e6f0;
+  padding: 0.5rem 1rem;
+}
+
+/* line 57, app/assets/stylesheets/mixins.css.scss */
+#vendors .card .card-footer .pagination {
+  margin: auto;
+}
+
+/* line 63, app/assets/stylesheets/mixins.css.scss */
+#vendors .table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+
+/* line 10, app/assets/stylesheets/mixins.css.scss */
+#vendors .table a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 15, app/assets/stylesheets/mixins.css.scss */
+#vendors .table a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+/* line 71, app/assets/stylesheets/mixins.css.scss */
+#vendors .table thead tr {
+  border: inherit;
+}
+
+/* line 74, app/assets/stylesheets/mixins.css.scss */
+#vendors .table thead tr th {
+  border: inherit;
+}
+
+/* line 80, app/assets/stylesheets/mixins.css.scss */
+#vendors .table tr {
+  border: inherit;
+}
+
+/* line 83, app/assets/stylesheets/mixins.css.scss */
+#vendors .table tr td {
+  border: inherit;
+}
+
+/* line 4, app/assets/stylesheets/vendors.css.scss */
+#vendors #vendors-table-header-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 0;
+}
+
+/* line 10, app/assets/stylesheets/vendors.css.scss */
+#vendors #vendors-table-header-inputs div {
+  display: flex;
+  justify-content: right;
+}
+
+/* line 14, app/assets/stylesheets/vendors.css.scss */
+#vendors #vendors-table-header-inputs div form {
+  margin-right: 20px;
+  width: 70%;
+}
+
+/* line 23, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .card {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e3e6f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* To prevent the table from overflowing */
+}
+
+/* line 31, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .card .card-header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e3e6f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 38, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .card .card-header .card-header-title {
+  height: 100%;
+}
+
+/* line 43, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .card .card-header .card-header-title, #vendor-show .card .card-header span {
+  margin-right: 5px;
+}
+
+/* line 47, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .card .card-header .columns {
+  width: 100%;
+}
+
+/* line 52, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .card .card-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #e3e6f0;
+  padding: 0.5rem 1rem;
+}
+
+/* line 57, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .card .card-footer .pagination {
+  margin: auto;
+}
+
+/* line 63, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+
+/* line 10, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .table a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 15, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .table a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+/* line 71, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .table thead tr {
+  border: inherit;
+}
+
+/* line 74, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .table thead tr th {
+  border: inherit;
+}
+
+/* line 80, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .table tr {
+  border: inherit;
+}
+
+/* line 83, app/assets/stylesheets/mixins.css.scss */
+#vendor-show .table tr td {
+  border: inherit;
+}
+
+/* line 24, app/assets/stylesheets/vendors.css.scss */
+#vendor-show .download-file-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 23, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .card {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e3e6f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* To prevent the table from overflowing */
+}
+
+/* line 31, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .card .card-header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e3e6f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 38, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .card .card-header .card-header-title {
+  height: 100%;
+}
+
+/* line 43, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .card .card-header .card-header-title, #vendor-form .card .card-header span {
+  margin-right: 5px;
+}
+
+/* line 47, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .card .card-header .columns {
+  width: 100%;
+}
+
+/* line 52, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .card .card-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #e3e6f0;
+  padding: 0.5rem 1rem;
+}
+
+/* line 57, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .card .card-footer .pagination {
+  margin: auto;
+}
+
+/* line 63, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+
+/* line 10, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .table a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 15, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .table a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+/* line 71, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .table thead tr {
+  border: inherit;
+}
+
+/* line 74, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .table thead tr th {
+  border: inherit;
+}
+
+/* line 80, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .table tr {
+  border: inherit;
+}
+
+/* line 83, app/assets/stylesheets/mixins.css.scss */
+#vendor-form .table tr td {
+  border: inherit;
+}
+
+/* line 34, app/assets/stylesheets/vendors.css.scss */
+.vendor-review-star {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+/* line 39, app/assets/stylesheets/vendors.css.scss */
+.vendor-review-star:hover {
+  cursor: pointer;
+}
+
+/* line 43, app/assets/stylesheets/vendors.css.scss */
+.review-percentage-bar {
+  width: 100%;
+  /* Set the width of the rectangle */
+  height: 20px;
+  /* Set the height of the rectangle */
+  background-color: #f7f5f5;
+  /* Set the background color of the rectangle */
+  border-radius: 4px;
+  border: 1px solid #e3e6f0;
+}
+
+/* line 51, app/assets/stylesheets/vendors.css.scss */
+.review-percentage-fill {
+  height: 100%;
+  background-color: #fee095;
+  border-radius: 4px;
+}
+
+/* line 58, app/assets/stylesheets/vendors.css.scss */
+.review-percentage-star-count {
+  text-align: end;
+}
+
+/* line 62, app/assets/stylesheets/vendors.css.scss */
+.review-percentage-percent {
+  text-align: start;
+}
+
+/* line 67, app/assets/stylesheets/vendors.css.scss */
+.review-percentage-container .column {
+  padding: 5px 0.75rem !important;
+}
